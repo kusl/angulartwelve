@@ -50,3 +50,4 @@ yarn run v1.22.10
 $ ng build --configuration production
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ```
+```bash
