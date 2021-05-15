@@ -18,3 +18,7 @@ sys     0m1.363s
 ```
 Sat May 15 08:46:03 AM MDT 2021
 ```bash
+yarn run v1.22.10
+$ ng update @angular/core @angular/cli @angular/material @angular/localize
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+```
