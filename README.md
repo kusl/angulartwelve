@@ -76,3 +76,39 @@ Done in 0.86s.
 real    0m1.057s
 user    0m0.992s
 sys     0m0.137s
+
+[kushal@april87 angulartwelve]$ time yarn run ng add @angular/material @angular/pwa
+yarn run v1.22.10
+$ ng add @angular/material @angular/pwa
+ℹ Using package manager: yarn
+✔ Found compatible package version: @angular/material@12.0.0.
+✔ Package information loaded.
+
+The package @angular/material@12.0.0 will be installed and executed.
+Would you like to proceed? Yes
+✔ Package successfully installed.
+Unknown option: '@angular/pwa'
+error Command failed with exit code 1.
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+real    0m14.421s
+user    0m8.886s
+sys     0m1.473s
+[kushal@april87 angulartwelve]$ time yarn run ng add @angular/material
+yarn run v1.22.10
+$ ng add @angular/material
+Skipping installation: Package already installed
+? Choose a prebuilt theme name, or "custom" for a custom theme: Purple/Green       [ Preview: https://material.angular.io?theme=purple-green ]
+? Set up global Angular Material typography styles? Yes
+? Set up browser animations for Angular Material? Yes
+UPDATE package.json (1139 bytes)
+✔ Packages installed successfully.
+UPDATE src/app/app.module.ts (502 bytes)
+UPDATE angular.json (3460 bytes)
+UPDATE src/index.html (581 bytes)
+UPDATE src/styles.scss (181 bytes)
+Done in 44.31s.
+
+real    0m44.506s
+user    0m9.100s
+sys     0m1.392s
