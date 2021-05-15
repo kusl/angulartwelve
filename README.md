@@ -112,3 +112,35 @@ Done in 44.31s.
 real    0m44.506s
 user    0m9.100s
 sys     0m1.392s
+
+[kushal@april87 angulartwelve]$ time yarn run ng add @angular/pwa
+yarn run v1.22.10
+$ ng add @angular/pwa
+ℹ Using package manager: yarn
+✔ Found compatible package version: @angular/pwa@latest.
+✔ Package information loaded.
+
+The package @angular/pwa will be installed and executed.
+Would you like to proceed? Yes
+✔ Package successfully installed.
+Option "configuration" is deprecated: No longer has an effect.
+CREATE ngsw-config.json (624 bytes)
+CREATE src/manifest.webmanifest (1350 bytes)
+CREATE src/assets/icons/icon-128x128.png (1253 bytes)
+CREATE src/assets/icons/icon-144x144.png (1394 bytes)
+CREATE src/assets/icons/icon-152x152.png (1427 bytes)
+CREATE src/assets/icons/icon-192x192.png (1790 bytes)
+CREATE src/assets/icons/icon-384x384.png (3557 bytes)
+CREATE src/assets/icons/icon-512x512.png (5008 bytes)
+CREATE src/assets/icons/icon-72x72.png (792 bytes)
+CREATE src/assets/icons/icon-96x96.png (958 bytes)
+UPDATE angular.json (3629 bytes)
+UPDATE package.json (1181 bytes)
+UPDATE src/app/app.module.ts (898 bytes)
+UPDATE src/index.html (767 bytes)
+✔ Packages installed successfully.
+Done in 19.15s.
+
+real    0m19.350s
+user    0m12.560s
+sys     0m2.357s
