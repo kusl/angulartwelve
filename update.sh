@@ -1,11 +1,10 @@
 #!/bin/bash
 
 cd ~/src/angular/angulartwelve/;
-date >> README.md;
+date > README.md;
 git add .;
 git commit -m "add timestamp";
-free -h > README.md;
-top >> README.md;
+free -h >> README.md;
 du -sh .>> README.md;
 git add .;
 git commit -m "add system status";
