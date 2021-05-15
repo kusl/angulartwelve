@@ -404,3 +404,7 @@ MiB Swap:[m[39;49m[1m   7845.0 [m[39;49mtotal,[m[39;49m[1m   7844.2 
 [m     33 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 netns                                                                                                                                     [m[39;49m[K[?1l>[52;1H
 [34h[?25h[K350M	.
 ```bash
+yarn run v1.22.10
+$ ng update @angular/core @angular/cli @angular/material @angular/localize
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+```
