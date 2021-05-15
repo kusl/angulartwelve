@@ -20,11 +20,9 @@ git commit -m "end add system status";
 
 export NODE_OPTIONS="--max-old-space-size=6144";
 
-echo "\`\`\`bash" >> README.md;
 git add .;
 git commit -m "begin prepare to update angular";
 time yarn run ng update @angular/core @angular/cli @angular/material @angular/localize;
-echo "\`\`\`" >> README.md;
 git add .;
 git commit -m "end prepare to update angular";
 
