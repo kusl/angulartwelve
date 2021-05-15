@@ -19,14 +19,6 @@ echo "\`\`\`" >> README.md;
 git add .;
 git commit -m "end prepare to update angular";
 
-date >> README.md;
-git add .;
-git commit -m "add timestamp";
-git pull --rebase origin master --strategy-option=ours >> README.md;
-git add .;
-git commit -m "merge from remote";
-git push origin master;
-
 echo "\`\`\`bash" >> README.md;
 git add .;
 git commit -m "begin prepare to build angular";
@@ -43,3 +35,10 @@ echo "\`\`\`" >> README.md;
 git add .;
 git commit -m "end prepare to unit test angular";
 
+date >> README.md;
+git add .;
+git commit -m "add timestamp";
+git pull --rebase origin master --strategy-option=ours >> README.md;
+git add .;
+git commit -m "merge from remote";
+git push origin master;
