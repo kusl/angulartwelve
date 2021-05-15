@@ -51,3 +51,10 @@ $ ng build --configuration production
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ```
 ```bash
+yarn run v1.22.10
+$ ng test
+15 05 2021 12:00:37.802:INFO [karma-server]: Karma v6.3.2 server started at http://localhost:9876/
+15 05 2021 12:00:37.804:INFO [launcher]: Launching browsers FirefoxHeadless with concurrency unlimited
+15 05 2021 12:00:37.809:INFO [launcher]: Starting browser Firefox
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+```
