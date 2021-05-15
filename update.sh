@@ -61,3 +61,12 @@ git pull --rebase origin master --strategy-option=ours;
 git add .;
 git commit -m "merge from remote";
 git push origin master;
+
+
+du -sh dist/angulartwelve/;
+time rsync -av /home/kushal/src/angular/angulartwelve/dist/angulartwelve/ /home/kushal/src/angular/angulrtwelvegithubio;
+du -sh /home/kushal/src/angular/angulrtwelvegithubio;
+cd /home/kushal/src/angular/angulrtwelvegithubio/;
+git add .;
+git commit -m "build and deploy";
+time git push origin master;
