@@ -8,3 +8,4 @@ yarn run v1.22.10
 $ ng update @angular/core @angular/cli @angular/material @angular/localize
 info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 ```
+```bash
