@@ -4,10 +4,19 @@ cd ~/src/angular/angulartwelve/;
 date > README.md;
 git add .;
 git commit -m "add timestamp";
+
+echo "\`\`\`bash" >> README.md;
+git add .;
+git commit -m "begin add system status";
+echo "System Memory" >> README.md;
 free -h >> README.md;
+echo "System Storage" >> README.md;
 du -sh .>> README.md;
 git add .;
 git commit -m "add system status";
+echo "\`\`\`" >> README.md;
+git add .;
+git commit -m "end add system status";
 
 export NODE_OPTIONS="--max-old-space-size=6144";
 
