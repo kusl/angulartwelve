@@ -47,7 +47,7 @@ git commit -m "end prepare to unit test angular";
 date >> README.md;
 git add .;
 git commit -m "add timestamp";
-git pull --rebase origin master --strategy-option=ours >> README.md;
+git pull --rebase origin master --strategy-option=ours;
 git add .;
 git commit -m "merge from remote";
 git push origin master;
