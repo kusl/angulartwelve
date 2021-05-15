@@ -22,6 +22,7 @@ git commit -m "end add system status";
 echo "\`\`\`bash" >> README.md;
 git add .;
 git commit -m "begin update node";
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
 time nvm install --lts;
 time nvm use --lts;
 time npm install --global @angular/cli yarn;
