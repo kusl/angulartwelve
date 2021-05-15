@@ -18,6 +18,18 @@ echo "\`\`\`" >> README.md;
 git add .;
 git commit -m "end add system status";
 
+
+echo "\`\`\`bash" >> README.md;
+git add .;
+git commit -m "begin update node";
+time nvm install --lts >> README.md;
+time nvm use --lts >> README.md;
+time npm install --global @angular/cli yarn >> README.md;
+time yarn run ng --version >> README.md;
+echo "\`\`\`" >> README.md;
+git add .;
+git commit -m "end add system status";
+
 export NODE_OPTIONS="--max-old-space-size=6144";
 
 git add .;
