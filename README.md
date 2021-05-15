@@ -61,3 +61,18 @@ Build at: 2021-05-15T16:03:24.057Z - Hash: 21bc5a31b94e45427386 - Time: 34093ms
 Done in 37.86s.
 ```
 ```bash
+yarn run v1.22.10
+$ ng test
+15 05 2021 10:03:32.928:INFO [karma-server]: Karma v6.3.2 server started at http://localhost:9876/
+15 05 2021 10:03:32.930:INFO [launcher]: Launching browsers FirefoxHeadless with concurrency unlimited
+15 05 2021 10:03:32.933:INFO [launcher]: Starting browser Firefox
+15 05 2021 10:03:43.875:INFO [Firefox 88.0 (Fedora 0.0.0)]: Connected on socket H6tQ-WPqo3Hc46S_AAAB with id 9808639
+Firefox 88.0 (Fedora 0.0.0): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KFirefox 88.0 (Fedora 0.0.0): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.198 secs)
+[1A[2KFirefox 88.0 (Fedora 0.0.0): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.238 secs)
+[1A[2KFirefox 88.0 (Fedora 0.0.0): Executed 3 of 3[32m SUCCESS[39m (0 secs / 0.264 secs)
+[1A[2KFirefox 88.0 (Fedora 0.0.0): Executed 3 of 3[32m SUCCESS[39m (0.321 secs / 0.264 secs)
+[32mTOTAL: 3 SUCCESS[39m
+TOTAL: 3 SUCCESS
+Done in 20.16s.
+```
