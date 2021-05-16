@@ -61,3 +61,104 @@ Build at: 2021-05-16T23:10:24.012Z - Hash: a577e85c70e8351fa22a - Time: 56016ms
 Done in 59.79s.
 ```
 ```bash
+yarn run v1.22.10
+$ ng test
+16 05 2021 17:10:32.666:INFO [karma-server]: Karma v6.3.2 server started at http://localhost:9876/
+16 05 2021 17:10:32.668:INFO [launcher]: Launching browsers FirefoxHeadless with concurrency unlimited
+16 05 2021 17:10:32.673:INFO [launcher]: Starting browser Firefox
+16 05 2021 17:10:43.728:INFO [Firefox 88.0 (Fedora 0.0.0)]: Connected on socket -kQtCccyD4eLlavgAAAB with id 14310024
+Firefox 88.0 (Fedora 0.0.0): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KERROR: [36m'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'[39m
+Firefox 88.0 (Fedora 0.0.0): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+ERROR: 'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KFirefox 88.0 (Fedora 0.0.0): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.086 secs)
+[1A[2KERROR: [36m'NG0304: 'app-navigation-bar' is not a known element:
+1. If 'app-navigation-bar' is an Angular component, then verify that it is part of this module.
+2. If 'app-navigation-bar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'[39m
+Firefox 88.0 (Fedora 0.0.0): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.086 secs)
+ERROR: 'NG0304: 'app-navigation-bar' is not a known element:
+1. If 'app-navigation-bar' is an Angular component, then verify that it is part of this module.
+2. If 'app-navigation-bar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2K[31mFirefox 88.0 (Fedora 0.0.0) HomeComponent should create FAILED[39m
+	Error: Function not implemented. in main.js (line 174)
+	sayHello@main.js:174:15
+	ngOnInit@main.js:171:14
+	callHook@vendor.js:40582:22
+	callHooks@vendor.js:40551:25
+	executeInitAndCheckHooks@vendor.js:40502:18
+	refreshView@vendor.js:47512:45
+	renderComponentOrTemplate@vendor.js:47611:20
+	tickRootContext@vendor.js:48842:34
+	detectChangesInRootView@vendor.js:48867:20
+	detectChanges@vendor.js:60905:32
+	_tick@vendor.js:71381:32
+	detectChanges/<@vendor.js:71394:22
+	invoke@polyfills.js:601:26
+	onInvoke@vendor.js:87230:39
+	invoke@polyfills.js:600:52
+	onInvoke@vendor.js:66714:33
+	invoke@polyfills.js:600:52
+	run@polyfills.js:363:43
+	run@vendor.js:66568:28
+	detectChanges@vendor.js:71393:25
+	7263/</<@main.js:138:13
+	invoke@polyfills.js:601:26
+	onInvoke@vendor.js:87230:39
+	invoke@polyfills.js:600:52
+	run@polyfills.js:363:43
+	runInTestZone@vendor.js:87510:34
+	wrapTestInZone/<@vendor.js:87525:20
+	<Jasmine>
+	invoke@polyfills.js:601:26
+	run@polyfills.js:363:43
+	scheduleResolveOrReject/<@polyfills.js:1505:36
+	invokeTask@polyfills.js:635:31
+	runTask@polyfills.js:407:47
+	drainMicroTaskQueue@polyfills.js:811:35
+Firefox 88.0 (Fedora 0.0.0): Executed 2 of 3[31m (1 FAILED)[39m (0 secs / 0.115 secs)
+Firefox 88.0 (Fedora 0.0.0) HomeComponent should create FAILED
+	Error: Function not implemented. in main.js (line 174)
+	sayHello@main.js:174:15
+	ngOnInit@main.js:171:14
+	callHook@vendor.js:40582:22
+	callHooks@vendor.js:40551:25
+	executeInitAndCheckHooks@vendor.js:40502:18
+	refreshView@vendor.js:47512:45
+	renderComponentOrTemplate@vendor.js:47611:20
+	tickRootContext@vendor.js:48842:34
+	detectChangesInRootView@vendor.js:48867:20
+	detectChanges@vendor.js:60905:32
+	_tick@vendor.js:71381:32
+	detectChanges/<@vendor.js:71394:22
+	invoke@polyfills.js:601:26
+	onInvoke@vendor.js:87230:39
+	invoke@polyfills.js:600:52
+	onInvoke@vendor.js:66714:33
+	invoke@polyfills.js:600:52
+	run@polyfills.js:363:43
+	run@vendor.js:66568:28
+	detectChanges@vendor.js:71393:25
+	7263/</<@main.js:138:13
+	invoke@polyfills.js:601:26
+	onInvoke@vendor.js:87230:39
+	invoke@polyfills.js:600:52
+	run@polyfills.js:363:43
+	runInTestZone@vendor.js:87510:34
+	wrapTestInZone/<@vendor.js:87525:20
+	<Jasmine>
+	invoke@polyfills.js:601:26
+	run@polyfills.js:363:43
+	scheduleResolveOrReject/<@polyfills.js:1505:36
+	invokeTask@polyfills.js:635:31
+	runTask@polyfills.js:407:47
+	drainMicroTaskQueue@polyfills.js:811:35
+[1A[2KFirefox 88.0 (Fedora 0.0.0): Executed 3 of 3[31m (1 FAILED)[39m (0 secs / 0.138 secs)
+[1A[2KFirefox 88.0 (Fedora 0.0.0): Executed 3 of 3[31m (1 FAILED)[39m (0.17 secs / 0.138 secs)
+[31mTOTAL: 1 FAILED, 2 SUCCESS[39m
+TOTAL: 1 FAILED, 2 SUCCESS
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+```
