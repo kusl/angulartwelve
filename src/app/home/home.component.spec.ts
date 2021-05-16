@@ -11,7 +11,8 @@ describe('HomeComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [
         NavigationBarComponent,
-        HomeComponent ]
+        HomeComponent,
+      ]
     })
     .compileComponents();
   });
