@@ -72,9 +72,9 @@ du -sh /home/kushal/src/angular/angulrtwelvegithubio;
 cd /home/kushal/src/angular/angulrtwelvegithubio/;
 git add .;
 git commit -m "build and deploy";
-let latest=git rev-parse HEAD;
+COMMIT_ID=$(git rev-parse --verify HEAD)
 curl https://sentry.io/api/hooks/release/builtin/5768670/b50116ba5ad9986947365aded6efb721e66310c9557954a43fe58fe0c27df2a4/ \
   -X POST \
   -H 'Content-Type: application/json' \
-  -d '{"version": "$latest"}'
+  -d '{"version": "$COMMIT_ID"}'
 time git push origin master;
