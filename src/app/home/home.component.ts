@@ -17,8 +17,4 @@ export class HomeComponent implements OnInit {
       this.now = new Date();
     }, 1000);
   }
-
-  sayHello() {
-    throw new Error('Function not implemented.');
-  }
 }
