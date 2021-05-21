@@ -7,11 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
   title = 'Angular 12';
+  now = new Date();
 
   constructor() {}
 
   ngOnInit(): void {
-    // this.sayHello();
+    this.now = new Date();
+    setInterval(() => {
+      this.now = new Date();
+    }, 1000);
   }
 
   sayHello() {
