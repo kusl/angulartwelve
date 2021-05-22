@@ -47,3 +47,5 @@ success Already up-to-date.
 Done in 0.80s.
 ```
 ```bash
+yarn run v1.22.10
+$ ng build --configuration production
