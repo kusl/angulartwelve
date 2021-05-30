@@ -9,8 +9,6 @@ export class HomeComponent implements OnInit {
   title = 'Angular 12';
   now = new Date();
 
-  constructor() {}
-
   ngOnInit(): void {
     this.now = new Date();
     setInterval(() => {

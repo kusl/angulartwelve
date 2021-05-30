@@ -26,7 +26,7 @@ import { Router } from '@angular/router';
     },
     {
       provide: APP_INITIALIZER,
-      useFactory: () => () => {},
+      useFactory: () => () => undefined,
       deps: [Sentry.TraceService],
       multi: true,
     },
