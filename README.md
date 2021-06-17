@@ -46,3 +46,17 @@ success Already up-to-date.
 Done in 0.83s.
 ```
 ```bash
+yarn run v1.22.10
+$ ng build --configuration production
+
+Initial Chunk Files               | Names         |      Size
+main.60aa68f17285ddac8bc2.js      | main          | 765.24 kB
+styles.9ad38513029a5cce9500.css   | styles        |  74.14 kB
+polyfills.f1c65ec3695d68dc2d0d.js | polyfills     |  36.64 kB
+runtime.3313c5207fe2b69600a5.js   | runtime       |   1.41 kB
+
+| Initial Total | 877.43 kB
+
+Build at: 2021-06-17T11:35:25.365Z - Hash: 0a6b21d740498370a401 - Time: 97225ms
+Done in 103.31s.
+```
