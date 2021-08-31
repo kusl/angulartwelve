@@ -61,3 +61,32 @@ Build at: 2021-08-31T01:13:07.407Z - Hash: d79f19426d1f21971e60 - Time: 33726ms
 Done in 38.65s.
 ```
 ```bash
+yarn run v1.22.11
+$ ng test
+30 08 2021 19:13:16.873:INFO [karma-server]: Karma v6.3.2 server started at http://localhost:9876/
+30 08 2021 19:13:16.875:INFO [launcher]: Launching browsers FirefoxHeadless with concurrency unlimited
+30 08 2021 19:13:16.880:INFO [launcher]: Starting browser Firefox
+30 08 2021 19:13:23.828:INFO [Firefox 91.0 (Fedora 0.0.0)]: Connected on socket _263MQuvGbcIUrpQAAAB with id 80129147
+Firefox 91.0 (Fedora 0.0.0): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KFirefox 91.0 (Fedora 0.0.0): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.069 secs)
+[1A[2KERROR: [36m'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'[39m
+Firefox 91.0 (Fedora 0.0.0): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.069 secs)
+ERROR: 'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KFirefox 91.0 (Fedora 0.0.0): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.097 secs)
+[1A[2KERROR: [36m'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'[39m
+Firefox 91.0 (Fedora 0.0.0): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.097 secs)
+ERROR: 'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KFirefox 91.0 (Fedora 0.0.0): Executed 3 of 3[32m SUCCESS[39m (0 secs / 0.242 secs)
+[1A[2KFirefox 91.0 (Fedora 0.0.0): Executed 3 of 3[32m SUCCESS[39m (0.293 secs / 0.242 secs)
+[32mTOTAL: 3 SUCCESS[39m
+TOTAL: 3 SUCCESS
+Done in 16.77s.
+```
