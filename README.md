@@ -48,3 +48,17 @@ yarn install v1.22.17
 Done in 7.79s.
 ```
 ```bash
+yarn run v1.22.17
+$ ng build --configuration production
+
+Initial Chunk Files               | Names         |      Size
+main.0d81e511ec8377049bd0.js      | main          | 782.30 kB
+styles.7b542be83b9716935ce6.css   | styles        |  71.63 kB
+polyfills.9fe43da8e7ae2e093011.js | polyfills     |  36.93 kB
+runtime.f936427b719890d6f190.js   | runtime       |   1.43 kB
+
+| Initial Total | 892.30 kB
+
+Build at: 2021-10-30T14:48:50.616Z - Hash: b7a0c1043e60847ce3e0 - Time: 90914ms
+Done in 96.83s.
+```
