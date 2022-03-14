@@ -61,3 +61,32 @@ Build at: 2022-03-14T17:58:18.230Z - Hash: b4af9f890f940fab - Time: 11854ms
 Done in 16.33s.
 ```
 ```bash
+yarn run v1.22.17
+$ ng test
+14 03 2022 11:58:27.257:INFO [karma-server]: Karma v6.3.2 server started at http://localhost:9876/
+14 03 2022 11:58:27.270:INFO [launcher]: Launching browsers FirefoxHeadless with concurrency unlimited
+14 03 2022 11:58:27.276:INFO [launcher]: Starting browser Firefox
+14 03 2022 11:58:31.024:INFO [Firefox 98.0 (Fedora 0.0.0)]: Connected on socket 5t5m4iLmxkob31tBAAAB with id 81614139
+Firefox 98.0 (Fedora 0.0.0): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KERROR: [36m'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'[39m
+Firefox 98.0 (Fedora 0.0.0): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+ERROR: 'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KFirefox 98.0 (Fedora 0.0.0): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.188 secs)
+[1A[2KERROR: [36m'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'[39m
+Firefox 98.0 (Fedora 0.0.0): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.188 secs)
+ERROR: 'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KFirefox 98.0 (Fedora 0.0.0): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.214 secs)
+[1A[2KFirefox 98.0 (Fedora 0.0.0): Executed 3 of 3[32m SUCCESS[39m (0 secs / 0.244 secs)
+[1A[2KFirefox 98.0 (Fedora 0.0.0): Executed 3 of 3[32m SUCCESS[39m (0.311 secs / 0.244 secs)
+[32mTOTAL: 3 SUCCESS[39m
+TOTAL: 3 SUCCESS
+Done in 13.49s.
+```
