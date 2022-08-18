@@ -61,3 +61,32 @@ Build at: 2022-08-18T00:17:29.405Z - Hash: d6ff3f64bcb1d26c - Time: 11202ms
 Done in 14.59s.
 ```
 ```bash
+yarn run v1.22.19
+$ ng test
+17 08 2022 18:17:38.365:INFO [karma-server]: Karma v6.3.2 server started at http://localhost:9876/
+17 08 2022 18:17:38.369:INFO [launcher]: Launching browsers FirefoxHeadless with concurrency unlimited
+17 08 2022 18:17:38.374:INFO [launcher]: Starting browser Firefox
+17 08 2022 18:17:40.682:INFO [Firefox 103.0 (Linux x86_64)]: Connected on socket yOQ60Q6b7CjXLFhPAAAB with id 28927605
+Firefox 103.0 (Linux x86_64): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+[1A[2KERROR: [36m'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'[39m
+Firefox 103.0 (Linux x86_64): Executed 0 of 3[32m SUCCESS[39m (0 secs / 0 secs)
+ERROR: 'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KFirefox 103.0 (Linux x86_64): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.051 secs)
+[1A[2KERROR: [36m'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'[39m
+Firefox 103.0 (Linux x86_64): Executed 1 of 3[32m SUCCESS[39m (0 secs / 0.051 secs)
+ERROR: 'NG0304: 'mat-icon' is not a known element:
+1. If 'mat-icon' is an Angular component, then verify that it is part of this module.
+2. If 'mat-icon' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+[1A[2KFirefox 103.0 (Linux x86_64): Executed 2 of 3[32m SUCCESS[39m (0 secs / 0.284 secs)
+[1A[2KFirefox 103.0 (Linux x86_64): Executed 3 of 3[32m SUCCESS[39m (0 secs / 0.319 secs)
+[1A[2KFirefox 103.0 (Linux x86_64): Executed 3 of 3[32m SUCCESS[39m (0.325 secs / 0.319 secs)
+[32mTOTAL: 3 SUCCESS[39m
+TOTAL: 3 SUCCESS
+Done in 11.78s.
+```
