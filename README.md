@@ -21,3 +21,11 @@ Done in 1.08s.
 ```bash
 ```
 Fri Oct 14 03:50:27 AM MDT 2022
+yarn run v1.22.19
+$ ng --version
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn install v1.22.19
+[1/4] Resolving packages...
+success Already up-to-date.
+Done in 0.99s.
+```
