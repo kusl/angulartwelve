@@ -51,3 +51,8 @@ ERROR: 'NG0304: 'mat-icon' is not a known element (used in the 'NavigationBarCom
 TOTAL: 3 SUCCESS
 Done in 15.82s.
 ```
+Mon Oct 17 10:19:54 PM MDT 2022
+yarn version v1.22.19
+info Current version: 0.0.58
+info New version: 0.0.59
+Done in 0.21s.
