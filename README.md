@@ -8,3 +8,13 @@ System Storage
 1.4G	.
 ```
 ```bash
+yarn run v1.22.19
+$ ng --version
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+yarn install v1.22.19
+[1/4] Resolving packages...
+[2/4] Fetching packages...
+[3/4] Linking dependencies...
+[4/4] Building fresh packages...
+Done in 7.63s.
+```
