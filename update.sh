@@ -1,61 +1,79 @@
 #!/bin/bash
 
 cd ~/src/angular/angulartwelve/;
+ping -A -D -c 20 -v 8.8.8.8 > ping.txt;
 date > README.md;
 git add .;
 git commit -m "add timestamp";
 
-echo "\`\`\`bash" >> README.md;
+echo '' >> README.md 2>&1;
+echo '# Angular Twelve' >> README.md 2>&1;
+echo '' >> README.md 2>&1;
+
+echo "\`\`\`bash" >> README.md 2>&1;
+ping -A -D -c 20 -v 8.8.8.8 >> ping.txt 2>&1;
 git add .;
 git commit -m "begin add system status";
-echo "System Memory" >> README.md;
-free -h >> README.md;
-echo "System Storage" >> README.md;
-du -sh .>> README.md;
+echo "System Memory" >> README.md 2>&1;
+free -h >> README.md 2>&1;
+echo "System Storage" >> README.md 2>&1;
+du -sh .>> README.md 2>&1;
 git add .;
 git commit -m "add system status";
-echo "\`\`\`" >> README.md;
+echo "\`\`\`" >> README.md 2>&1;
 git add .;
 git commit -m "end add system status";
 
 
-echo "\`\`\`bash" >> README.md;
+echo "\`\`\`bash" >> README.md 2>&1;
+ping -A -D -c 20 -v 8.8.8.8 >> ping.txt 2>&1;
 git add .;
 git commit -m "begin update node";
 [[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh;  # This loads NVM
 source ~/.nvm/nvm.sh;
 time nvm install --lts;
 time nvm use --lts;
-time npm install --global @angular/cli yarn;
-time yarn run ng --version >> README.md;
-time yarn >> README.md;
-echo "\`\`\`" >> README.md;
+export NODE_OPTIONS="--max-old-space-size=8000"; time npm install --global @angular/cli yarn;
+export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng version >> README.md 2>&1;
+time yarn >> README.md 2>&1;
+echo "\`\`\`" >> README.md 2>&1;
+ping -A -D -c 20 -v 8.8.8.8 >> ping.txt 2>&1;
 git add .;
 git commit -m "end update node";
 
-export NODE_OPTIONS="--max-old-space-size=6144";
+export NODE_OPTIONS="--max-old-space-size=8000";
 
 git add .;
 git commit -m "begin prepare to update angular";
-time yarn run ng update @angular/core @angular/cli @angular/material @angular/localize @angular-eslint/schematics;
+export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng update @angular/core @angular/cli @angular/material @angular/localize;
 git add .;
 git commit -m "end prepare to update angular";
 
-echo "\`\`\`bash" >> README.md;
+echo "\`\`\`bash" >> README.md 2>&1;
+time npx browserslist --update-db >> README.md 2>&1;
+echo "\`\`\`" >> README.md 2>&1;
+
+echo "\`\`\`bash" >> README.md 2>&1;
+ping -A -D -c 20 -v 8.8.8.8 >> ping.txt 2>&1;
 git add .;
 git commit -m "begin prepare to build angular";
-time yarn run ng build --configuration production >> README.md;
-echo "\`\`\`" >> README.md;
+export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng build --configuration production >> README.md 2>&1;
+echo "\`\`\`" >> README.md 2>&1;
 git add .;
 git commit -m "end prepare to build angular";
 
-echo "\`\`\`bash" >> README.md;
+echo "\`\`\`bash" > locallog/fedoratest.md;
+ping -A -D -c 20 -v 8.8.8.8 >> ping.txt 2>&1;
 git add .;
 git commit -m "begin prepare to unit test angular";
-time yarn run ng test >> README.md;
-echo "\`\`\`" >> README.md;
+export NODE_OPTIONS="--max-old-space-size=8000"; time yarn run ng test >> locallog/fedoratest.md;
+echo "\`\`\`" >> locallog/fedoratest.md;
+ping -A -D -c 20 -v 8.8.8.8 >> ping.txt 2>&1;
 git add .;
 git commit -m "end prepare to unit test angular";
+
+date >> README.md 2>&1;
+ping -D -c 20 -v 8.8.8.8 >> ping.txt 2>&1;
 
 date >> README.md;
 time yarn version --patch >> README.md;
