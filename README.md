@@ -50,3 +50,33 @@ yarn install v1.22.19
 success Already up-to-date.
 Done in 0.90s.
 ```
+```bash
+Latest version:     1.0.30001439
+Installed version:  1.0.30001435
+Removing old caniuse-lite from lock file
+Installing new caniuse-lite version
+$ yarn add -W caniuse-lite
+warning " > @sentry/angular@7.12.1" has incorrect peer dependency "@angular/common@10.x || 11.x || 12.x || 13.x || 14.x".
+warning " > @sentry/angular@7.12.1" has incorrect peer dependency "@angular/core@10.x || 11.x || 12.x || 13.x || 14.x".
+warning " > @sentry/angular@7.12.1" has incorrect peer dependency "@angular/router@10.x || 11.x || 12.x || 13.x || 14.x".
+Cleaning package.json dependencies from caniuse-lite
+$ yarn remove -W caniuse-lite
+warning " > @sentry/angular@7.12.1" has incorrect peer dependency "@angular/common@10.x || 11.x || 12.x || 13.x || 14.x".
+warning " > @sentry/angular@7.12.1" has incorrect peer dependency "@angular/core@10.x || 11.x || 12.x || 13.x || 14.x".
+warning " > @sentry/angular@7.12.1" has incorrect peer dependency "@angular/router@10.x || 11.x || 12.x || 13.x || 14.x".
+caniuse-lite has been successfully updated
+
+Target browser changes:
+- and_chr 107
++ and_chr 108
+- and_ff 106
++ and_ff 107
+- android 107
++ android 108
+- chrome 105
+- edge 106
+- edge 105
++ edge 108
+- firefox 105
+```
+```bash
