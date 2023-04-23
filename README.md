@@ -58,3 +58,31 @@ caniuse-lite has been successfully updated
 No target browser changes
 ```
 ```bash
+yarn run v1.22.19
+$ ng build --configuration production
+    Components styles sourcemaps are not generated when styles optimization is enabled.
+- Generating browser application bundles (phase: setup)...
+✔ Browser application bundle generation complete.
+✔ Browser application bundle generation complete.
+- Copying assets...
+✔ Copying assets complete.
+- Generating index html...
+✔ Index html generation complete.
+- Generating service worker...
+✔ Service worker generation complete.
+
+Initial Chunk Files           | Names         |  Raw Size | Estimated Transfer Size
+main.ec77252669b9c80f.js      | main          | 643.07 kB |               108.74 kB
+styles.dafe4c949869ebad.css   | styles        | 107.38 kB |                 9.75 kB
+polyfills.6cd98b2b49a7d67b.js | polyfills     |  37.10 kB |                11.89 kB
+runtime.c6cb7652b375cd29.js   | runtime       | 957 bytes |               570 bytes
+
+| Initial Total | 788.47 kB |               130.93 kB
+
+Build at: 2023-04-23T19:13:54.328Z - Hash: 1a7968796ebedb46 - Time: 18717ms
+
+Warning: bundle initial exceeded maximum budget. Budget 500.00 kB was not met by 288.47 kB with a total of 788.47 kB.
+
+
+Done in 22.82s.
+```
