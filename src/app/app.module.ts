@@ -1,6 +1,6 @@
 import { APP_INITIALIZER, ErrorHandler, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import * as Sentry from "@sentry/angular";
+// import * as Sentry from "@sentry/angular";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,24 +13,24 @@ import { MaterialModule } from './material/material.module';
 import { Router } from '@angular/router';
 
 @NgModule({
-  providers: [
-    {
-      provide: ErrorHandler,
-      useValue: Sentry.createErrorHandler({
-        showDialog: true,
-      }),
-    },
-    {
-      provide: Sentry.TraceService,
-      deps: [Router],
-    },
-    {
-      provide: APP_INITIALIZER,
-      useFactory: () => () => undefined,
-      deps: [Sentry.TraceService],
-      multi: true,
-    },
-  ],
+  // providers: [
+    // {
+      // provide: ErrorHandler,
+      // useValue: Sentry.createErrorHandler({
+      //   showDialog: true,
+      // }),
+    // },
+    // {
+      // provide: Sentry.TraceService,
+      // deps: [Router],
+    // },
+    // {
+      // provide: APP_INITIALIZER,
+      // useFactory: () => () => undefined,
+      // deps: [Sentry.TraceService],
+      // multi: true,
+    //},
+  // ],
   declarations: [
     AppComponent,
     HomeComponent,
